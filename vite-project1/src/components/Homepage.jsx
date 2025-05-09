@@ -11,6 +11,10 @@ import { faBrain, faFileCsv,
   faChartLine,
   faCheckCircle,
   faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { Navbar } from '../navbar/Navbar';
+
+
+
 
 const Homepage = () => {
   const fileInputRef = useRef(null); 
@@ -240,22 +244,7 @@ const Homepage = () => {
 
   return (
     <>
-      <nav className="navbar">
-        <div className="container nav-container">
-          <a href="/" className="logo">
-            <FontAwesomeIcon icon={faBrain} style={{ color: 'var(--primary)', fontSize: '1.8rem' }} />
-            <span className="logo-text">Deep Analysis</span>
-          </a>
-
-          <div className="nav-links">
-            <a href="/products" className="nav-link">Products</a>
-            <a href="/founders" className="nav-link">Founders</a>
-          </div>
-
-          <a href="/contactUs" className="contact-btn">Contact us</a>
-        </div>
-      </nav>
-
+    <Navbar/>
       <section className="hero-section">
         <div className="container">
           <div className="tagline">Building agents for structured data</div>
@@ -423,12 +412,6 @@ const Homepage = () => {
           <div className="footer-logo">
             <FontAwesomeIcon icon={faBrain} className="footer-logo-icon" />
             <div className="footer-logo-text">Deep Analysis</div>
-          </div>
-
-          <div className="footer-links">
-            <a href="/terms" className="footer-link">Terms</a>
-            <a href="/privacy" className="footer-link">Privacy</a>
-            <a href="/contact" className="footer-link">Contact</a>
           </div>
         </div>
       </footer>
