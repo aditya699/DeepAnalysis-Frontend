@@ -252,7 +252,7 @@ const Homepage = () => {
             <span className="highlight">Deep Analysis</span> that transforms data into insights
           </h1>
           <p className="description">
-            Deep Analysis is a powerful automated data analysis service designed to streamline the process of extracting insights from structured data. Using a system of intelligent agents powered by AI, it automatically explores CSV files, identifies key performance indicators (KPIs), generates visualizations, and produces comprehensive analytical reports.
+            Deep Analysis uses AI agents to automate insights extraction from structured data, exploring CSVs, identifying KPIs, generating visualizations, and producing reports.
           </p>
 
           <p className="description">

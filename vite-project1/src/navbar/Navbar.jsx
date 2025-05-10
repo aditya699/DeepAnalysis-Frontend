@@ -15,7 +15,6 @@ export const Navbar = () => {
             <a href="/founders" className="nav-link">Founders</a>
           </div>
 
-          <a href="/contactUs" className="contact-btn">Contact us</a>
         </div>
       </nav>
   )
