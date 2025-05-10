@@ -1,12 +1,92 @@
-# React + Vite
+# Deep Analysis Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application for deep analysis and visualization of data, built with React and Vite. This platform enables intelligent agents to perform sophisticated data analysis and provide actionable insights.
 
-Currently, two official plugins are available:
+![Interface Preview](https://test730305913143367.blob.core.windows.net/images-analysis/interface.PNG)
+![Interface Preview 2](https://test730305913143367.blob.core.windows.net/images-analysis/interface2.PNG)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Modern React-based user interface
+- AI-powered analysis agents for data processing
+- Real-time data visualization
+- Responsive design
+- Interactive data analysis tools
+- Seamless integration with backend services
+- Multi-agent collaboration system
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Tech Stack
+
+- React 19
+- Vite 6
+- React Router DOM 7
+- FontAwesome Icons
+- ESLint for code quality
+- TypeScript support
+
+## 📋 Prerequisites
+
+- Node.js (Latest LTS version recommended)
+- npm or yarn package manager
+
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/deep-analysis-frontend.git
+cd deep-analysis-frontend
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+## 🔗 Backend Integration
+
+This frontend application is designed to work with the Deep Analysis Backend. You can find the backend repository here:
+[Deep Analysis Backend](https://github.com/aditya699/deep-analysis)
+
+## 🏗️ Project Structure
+
+```
+vite-project1/
+├── src/              # Source files
+├── public/           # Static assets
+├── dist/            # Build output
+├── node_modules/    # Dependencies
+└── package.json     # Project configuration
+```
+
+## 📝 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- Your Name - Initial work
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors
+- Special thanks to the open-source community
