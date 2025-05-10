@@ -1,0 +1,133 @@
+body {
+  background-color: var(--pink-bg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title {
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.description {
+  max-width: 600px;
+  margin: 1rem auto 2rem;
+  line-height: 1.5;
+  color: #444;
+  text-align: center;
+}
+
+.report-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.report-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.report-section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-section h2 {
+  font-size: 1.5rem;
+  color: #1a73e8;
+  margin-bottom: 15px;
+}
+
+.kpi-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.kpi-list li {
+  background: #f5f7fa;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #1a73e8;
+  border: 1px solid #dadce0;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-buttons button {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.visualization img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-results {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+.analysis-results table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.analysis-results th,
+.analysis-results td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.analysis-results th {
+  background-color: #f5f7fa;
+  color: #137cbd;
+}
+.analysis-results tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.analysis-results tr:hover {
+  background-color: #f1f1f1;
+}
+.business-insights p {
+  line-height: 1.6;
+  color: #202124;
+}
+
+@media (min-width: 640px) {
+  .report-image {
+    max-width: 45%;
+  }
+}

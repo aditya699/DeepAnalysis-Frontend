@@ -1,0 +1,55 @@
+.founders-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--pink-bg);
+  }
+  
+  .founders-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .founders-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .founder-description{
+    text-align: justify;
+  }
+  
+  .founder-card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .founder-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .founder-name {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  .founder-profession {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  @media (max-width: 600px) {
+    .founder-card {
+      width: 100%;
+      max-width: 320px;
+    }
+  }
+  
