@@ -306,7 +306,7 @@ const Homepage = () => {
                 Analyze Data
               </button>
               <p className="info-text">
-              This is the AI Agent Report Builder. Our dashboard generator will be shipped next.
+              This is the AI Agent Report Builder.
             </p>
               </form>
               

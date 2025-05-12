@@ -5,15 +5,15 @@ const Products = () => (
   <>
     <Navbar />
     <div className="products-container">
-      <h1 className="title">AI Agent Report Builder</h1>
+      <h1 className="title">1st Launch: AI Agent Report Builder</h1>
       <p className="description">
         The AI Agent Report Builder lets you effortlessly transform raw data into professional, fully customizable reports—complete with charts, tables, and insights—so you can make faster, data-driven decisions.
         <br />
-        Stay tuned: our upcoming Dashboard Generator will enable you to build interactive, real‐time dashboards with just a few clicks.
+        Stay tuned: More Amazing Products Coming Soon!
       </p>
 
       <section id="executive-summary" className="report-section">
-        <h2>Executive Summary</h2>
+        <h2>Executive Summary Which The Agent Will Generate</h2>
         <p>
           This report presents a comprehensive deep analysis of 2 key performance indicators derived from the dataset. Each KPI is analyzed with detailed metrics, visualizations, and business insights to support data-driven decision making.
         </p>
